@@ -1,0 +1,14 @@
+1. use file_list_scan to check get the link list of new books
+2. use download_ctfile_multithread.py to download the files
+3. use check_file_size to del those files with incorrect size
+
+
+The process may need to run multiple times.
+- need to integrate the whole process
+
+
+http
+https://webapi.ctfile.com/getfile.php?path=f&f=402712-479820221-969fe8&passcode=2021&token=false&r=0.8352648394537068&ref=
+https://webapi.ctfile.com/get_file_url.php?uid=402712&fid=479820221&folder_id=0&file_chk=98e890536207549b782ec050d9903acc&mb=0&app=0&acheck=1&verifycode=&rd=0.7634885275691221
+yabook
+https://webapi.ctfile.com/getfile.php?path=file&f=402712-479820221-969fe8&passcode=2021&token=false&r=0.2598209485675185&ref=
